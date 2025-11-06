@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15" version="28.2.9">
+  <diagram name="Page-1" id="HqQRuXvzF7eXilhoXkxn">
+    <mxGraphModel dx="1018" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-1" value="Пациент" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-2" value="Сотрудник&#xa;ресепшена" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-3" value="Регистрация&lt;br&gt;пациента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-4" value="Excel:&lt;br&gt;Список пациентов" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-5" value="Папка:&lt;br&gt;Файлы пациентов" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-6" value="Персональные данные&#xa;(ФИО, дата рождения,&#xa;телефон, адрес)" style="endArrow=block;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="LDW50Dw82eIdzjFlqdf_-1" target="LDW50Dw82eIdzjFlqdf_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-7" value="Ввод данных&#xa;вручную" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDW50Dw82eIdzjFlqdf_-2" target="LDW50Dw82eIdzjFlqdf_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-8" value="Сохранение данных" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDW50Dw82eIdzjFlqdf_-3" target="LDW50Dw82eIdzjFlqdf_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDW50Dw82eIdzjFlqdf_-9" value="Сохранение файлов" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDW50Dw82eIdzjFlqdf_-3" target="LDW50Dw82eIdzjFlqdf_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
