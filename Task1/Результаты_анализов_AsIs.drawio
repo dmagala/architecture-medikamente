@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15" version="28.2.9">
+  <diagram name="Page-1" id="zsKjNYNhAnW_ntCqNu5c">
+    <mxGraphModel dx="1018" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-1" value="Лаборатория" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="63" y="78" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-2" value="Врач" style="shape=actor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="63" y="266" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-3" value="Получение&lt;br&gt;результатов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="86" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-4" value="Хранение&lt;br&gt;результатов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-5" value="Excel:&lt;br&gt;Реестр анализов" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="78" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-6" value="Папка:&lt;br&gt;Результаты анализов" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="288" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-7" value="Результаты анализов&#xa;(вручную)" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VSNG1Q-bRTGCLIULxX5-1" target="1VSNG1Q-bRTGCLIULxX5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-8" value="Регистрация в реестре" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VSNG1Q-bRTGCLIULxX5-3" target="1VSNG1Q-bRTGCLIULxX5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-9" value="Сохранение файлов" style="endArrow=block;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VSNG1Q-bRTGCLIULxX5-3" target="1VSNG1Q-bRTGCLIULxX5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-11" value="Чтение результатов" style="endArrow=block;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VSNG1Q-bRTGCLIULxX5-6" target="1VSNG1Q-bRTGCLIULxX5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1VSNG1Q-bRTGCLIULxX5-12" value="Результаты" style="endArrow=block;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VSNG1Q-bRTGCLIULxX5-4" target="1VSNG1Q-bRTGCLIULxX5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
